@@ -3,4 +3,5 @@ About: This is a Cheatsheet Website for developers to help them learn & grow in 
 Technologies Used: HTML5, CSS3, Bootstrap5, Vanilla JavaScript
 Date of Creation: 04/09/2022
 
-![alt text](images/Coded.mp4)
+[![Watch the video](images/Coded.mp4)
+
