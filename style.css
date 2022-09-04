@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto+Mono:wght@700&family=Ubuntu+Mono&display=swap');
+body {
+    font-family: 'Ubuntu Mono', monospace;  
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px grey; 
+border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #71a7fa; 
+border-radius: 10px;
+border: 3px solid white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #0d6efd; 
+}
+
+/* HOME SECTION  */
+.container-fluid {
+    padding: 3% 12%;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Lilita One', cursive;
+    letter-spacing: 4px;
+}
+
+.dropdown-menu{
+    background-color: #d6e6fd;
+}
+
+.coder-image {
+    width: 50%;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+
+.content{
+    padding: 7% 0%;
+}
+
+.homeContent{
+    width: 50%;
+}
+
+/* FEATURE SECTION  */
+.feature-box{
+    text-align: center;
+    padding: 0 5%;
+    margin: 0px;
+}
+
+.feature-img{
+    height: 50%;
+    width: 100%;
+}
+
+.feature-heading{
+    padding-top: 25px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Lilita One', cursive;
+    letter-spacing: 4px;
+    color: #0d6efd; 
+}
+
+.feature-desc{
+    color: #71a7fa;
+}
+
+/* RESOURCES SECTION  */
+.resources{
+    transition: 1s;
+    background-color: #0d6efd;
+    text-align: center;
+}
+
+.resources-heading{
+    font-weight: bold;
+}
+
+/* Adding Text CSS  */
+.card::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 00%;
+    left: 50%;
+    transform: translate(-50%, calc(-50% + 110px));
+    font-size: 5vw;
+    pointer-events: none;
+    font-weight: 700;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+/* Text Hover Effect */
+.card:hover::before{
+    opacity: 0.2;
+    transform: translate(-50%, calc(-50% + 150px));
+}
+
+.card{
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: #71a7fa 2px;
+}
+
+.resource-heading{
+    transform-style: preserve-3d;
+    font-weight: bolder;
+}
+
+.fa-html5{
+    color: #ffa500;
+}
+
+.fa-git{
+    color: #000;
+}
+
+.fa-css3-alt{
+    color: #0d6efd;
+}
+
+.fa-js{
+    color: #ffff00;
+    background-color: #000;
+}
+
+/* CONTACT SECTION  */
+.contact-heading{
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+/* FOOTER SECTION  */
+#footer{
+    text-align: center;
+    background-color: #0d6efd;
+    color: #fff;
+    padding: 1%;
+}
+
+.social-icon{
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.social-icon:hover{
+opacity: 0.8;
+}
+
+/* RESPONSIVE CSS  */
+@media only screen and (max-width: 850px){
+.homeContent{
+    width: 100%;
+}
+.coder-image{
+    position: relative;
+    width: 100%;
+}
+}

@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="images/homePageImg.png">
+  <title>Coded</title>
+  <!-- ADDING BOOTSTRAP CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <!-- ADDING STYLESHEET  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- ADDING BOOTSTRAP SCRIPT  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
+  <!-- FONT AWESOME  -->
+  <script src="https://kit.fontawesome.com/ac03ba53df.js" crossorigin="anonymous"></script>
+
+  <!-- TILT CODE  -->
+  <script src="vanilla-tilt.min.js"></script>
+
+</head>
+
+<body>
+
+  <!-- HOME SECTION  -->
+  <section id="homeSection" class="bg-primary">
+    <div class="container-fluid ">
+
+      <!-- NavBar  -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class=" navbar-brand px-4" href="#">Coded</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Resources
+              </a>
+              <ul class="dropdown-menu bg-light">
+                <li><a class="dropdown-item" href="#resources">Git & Github</a></li>
+                <li><a class="dropdown-item" href="#resources">HTML</a></li>
+                <li><a class="dropdown-item" href="#resources">CSS</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Coding Tips</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+            </li>
+
+
+
+          </ul>
+
+        </div>
+      </nav>
+
+      <!-- Home Section Content  -->
+      <div class="position-relative content overflow-hidden text-left bg-primary">
+
+        <div class="p-3 text-white homeContent">
+          <h1 class="display-4 fw-normal">Code Resources</h1>
+          <p class="lead fw-normal">Get coding tips, resources, cheatsheets and much more here. Coded is an initiative
+            by Anant Choubey to help the coders with tips on How to grow as a developer.</p>
+          <a class="btn btn-outline-light" href="#resources">Start Learning</a>
+        </div>
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+
+        <div class=" homeContent">
+          <img class="coder-image" src="images/homePageImg.png"
+            alt="coder-image">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION  -->
+  <section id="about">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <img class="feature-img" src="images/cheatsheets.png" alt="">
+          <h2 class="feature-heading">CheatSheets</h2>
+          <p class="feature-desc">Get Cheatsheet for your code</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <img class="feature-img" src="images/code-resources.png" alt="">
+          <h2 class="feature-heading">Resources</h2>
+          <p class="feature-desc">Learn coding from best Resources.</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <img class="feature-img" src="images/tips.png" alt="">
+          <h2 class="feature-heading">Tips and Tricks</h2>
+          <p class="feature-desc">Do efficient coding with Coding techniques.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESOURCES & CHEATSHEET SECTION  -->
+  <section id="resources" class="resources text-dark">
+    <div class="container-fluid hello">
+      <h1 class="text-white resources-heading">Resources & Cheatsheets</h1>
+      <li class="card" aria-hidden="true" data-text="HTML5" data-color="#ffa500" style="width: 18rem;">
+        <div class="card-body">
+          <i class="codeIcon fa-4x fab fa-html5"></i>
+          <h5 class="card-title">HTML5</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Hyper Text Markup Language</h6>
+          <p class="card-text">Learn about HTML attributes, elements, classes, ids, forms and much more.</p>
+          <a href="#" class="card-link">Cheatsheet</a>
+          <a href="#" class="card-link">Resources</a>
+        </div>
+      </li>
+      <li class="card" aria-hidden="true" data-text="CSS3" data-color="#0d6efd" style="width: 18rem;">
+        <div class="card-body">
+          <i class="codeIcon fa-4x fab fa-css3-alt"></i>
+          <h5 class="card-title">CSS3</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Know how to position elements, create navbar, sizing, spacing, coloring, etc.</p>
+          <a href="#" class="card-link">Cheatsheet</a>
+          <a href="#" class="card-link">Resources</a>
+        </div>
+      </li>
+      <li class="card" aria-hidden="true" data-text="JavaScript" data-color="#" style="width: 18rem;">
+        <div class="card-body">
+          <i class="codeIcon fa-4x fab fa-js"></i>
+          <h5 class="card-title">JavaScript</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Let's learn how to use If Else Statements, objects, arrays and functions of JavaScript</p>
+          <a href="#" class="card-link">Cheatsheet</a>
+          <a href="#" class="card-link">Resources</a>
+        </div>
+      </li>
+      <li class="card" aria-hidden="true" data-text="Git & GitHub" data-color="#000" style="width: 18rem;">
+        <div class="card-body">
+          <i class="codeIcon fa-4x fab fa-git"></i>
+          <h5 class="card-title">Git & GitHub</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Have a quick know how about how to push, pull, merge in Git, create or Delete a repository in Github</p>
+          <a href="#" class="card-link">Cheatsheet</a>
+          <a href="#" class="card-link">Resources</a>
+        </div>
+      </li>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION  -->
+  <section id="contact">
+    <div class="container-fluid">
+      <h1 class="contact-heading">
+        Contact Us
+      </h1>
+      <form action="mailto:anantchoubey039@gmail.com" method="post" enctype="text/plain" class="row g-3">
+        <div class="col-md-4">
+          <label for="inputfirstName" class="form-label">First Name</label>
+          <input type="text" class="form-control" name="firstName" id="inputfirstName" required>
+        </div>
+        <div class="col-md-4">
+          <label for="inputlastName" class="form-label">Last Name</label>
+          <input type="text" class="form-control" name="lastName" id="inputlastName" required>
+        </div>
+        <div class="col-md-8">
+          <label for="inputEmail" class="form-label">Email</label>
+          <input type="email" class="form-control" name="email" id="inputEmail" placeholder="abcd@gmail.com" required>
+        </div>
+        <div class="col-md-8">
+          <label for="inputNumber" class="form-label">Contact Number (Whatsapp Number Preferred)</label>
+          <input type="text" class="form-control" name="contact number" id="inputNumber" placeholder="1234567890"
+            required>
+        </div>
+        <div class="col-md-8">
+          <label for="inputPurpose" class="form-label">Purpose of Contacting</label>
+          <input type="text" class="form-control" name="purpose" id="inputPurpose" required>
+        </div>
+        <div class="col-md-8">
+          <label for="inputMessage" class="form-label">Your Message</label>
+          <textarea type="text" class="form-control" name="message" id="inputMessage" required></textarea>
+        </div>
+        <div class="col-md-8">
+          <label for="inputState" class="form-label">Where can we contact you?</label>
+          <select id="inputState" name="contactOn" class="form-select">
+            <option selected>Email</option>
+            <option>Call</option>
+            <option>Whatsapp</option>
+          </select>
+        </div>
+
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER SECTION -->
+  <footer class="copyright-section" id="footer">
+    <a href="https://twitter.com/AnantChoubey10" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top"
+      data-bs-title="Twitter"><i class="social-icon fab fa-twitter"></i></a>
+    <a href="https://www.linkedin.com/in/theanantchoubey/" target="_blank" data-bs-toggle="tooltip"
+      data-bs-placement="top" data-bs-title="LinkedIn"><i class="social-icon fab fa-linkedin"></i></a>
+    <a href="https://theanantchoubey.github.io/myCV/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top"
+      data-bs-title="Website"><i class="social-icon fa fa-globe"></i></a>
+    <a href="anantchoubey039@gmail.com" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top"
+      data-bs-title="Email"><i class="social-icon fas fa-envelope"></i></a>
+
+    <p class="navbar-brand"> Coded</p>
+
+
+    <p>© Copyright 2022 - Developed by Anant Choubey</p>
+  </footer>
+</body>
+<script>
+  // Adding backgroundColor Changing Effect 
+  let list = document.querySelectorAll('.resources li');
+  let bg = document.querySelector('.resources');
+  list.forEach(elements => {
+    elements.addEventListener('mouseenter', function (event) {
+      bg.style.backgroundColor = '#0958d0';
+    });
+
+    elements.addEventListener('mouseleave', function (event) {
+      bg.style.backgroundColor = '#0d6efd';
+    });
+  });
+
+  // Adding Tilt Effect 
+  VanillaTilt.init(document.querySelectorAll(".card"), {
+    max: 15,
+    glare: true,
+    "max-glare": 0.3,
+    speed: 400
+  });
+
+  // INITIALIZIN TOOLTIPS 
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+</script>
+
+</html>
